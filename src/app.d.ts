@@ -2,18 +2,12 @@
 // for information about these interfaces
 declare global {
 	namespace App {
-        interface Platform {
-            env: {
-                DB: D1Database;
-            };
-            context: {
-                waitUntil(promise: Promise<any>): void;
-            };
-            caches: Cache
-            cf: CfProperties
-            ctx: ExecutionContext
-        }
-    }
+		// interface Error {}
+		// interface Locals {}
+		// interface PageData {}
+		// interface PageState {}
+		// interface Platform {}
+	}
 }
 
 export {};
